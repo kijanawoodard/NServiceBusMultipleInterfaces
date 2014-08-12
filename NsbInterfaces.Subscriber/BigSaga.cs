@@ -1,7 +1,6 @@
 ﻿using System;
 using NsbInterfaces.Events.Publisher;
 using NsbInterfaces.Events.Subscriber;
-using NsbInterfaces.Messages.Publisher;
 using NServiceBus;
 using NServiceBus.Saga;
 

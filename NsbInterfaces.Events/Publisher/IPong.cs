@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NsbInterfaces.Messages.Publisher
+namespace NsbInterfaces.Events.Publisher
 {
     public interface IPong
     {
