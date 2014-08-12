@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="NServiceBus">
       <HintPath>..\packages\NServiceBus.Interfaces.4.6.3\lib\net40\NServiceBus.dll</HintPath>
     </Reference>
@@ -47,7 +50,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Events\MyEvent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -56,8 +58,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Events\" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\NsbInterfaces.Events\NsbInterfaces.Events.csproj">
-      <Project>{a0010e8e-15a3-4c6f-bcd3-c96e0f34bde2}</Project>
+      <Project>{A0010E8E-15A3-4C6F-BCD3-C96E0F34BDE2}</Project>
       <Name>NsbInterfaces.Events</Name>
     </ProjectReference>
   </ItemGroup>

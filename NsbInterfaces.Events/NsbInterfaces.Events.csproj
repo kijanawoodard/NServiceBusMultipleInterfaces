@@ -39,8 +39,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ISomeInterface.cs" />
-    <Compile Include="ISomeOtherInterface.cs" />
+    <Compile Include="Subscriber\IPing.cs" />
+    <Compile Include="Publisher\IPong.cs" />
+    <Compile Include="Publisher\ISomeEvent.cs" />
+    <Compile Include="Publisher\ISomeInterface.cs" />
+    <Compile Include="Publisher\ISomeOtherInterface.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
